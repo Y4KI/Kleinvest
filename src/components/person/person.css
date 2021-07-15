@@ -1,0 +1,44 @@
+.person {
+    width: 360px;
+    height: 180px;
+    background-color: white;
+}
+.person__img {
+    width: 120px;
+    height: 180px;
+}
+.person__comment {
+    padding: 20px 30px;
+}
+.person__name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.1163px;
+    line-height: 23px;
+    letter-spacing: 0.0713178px;
+    color: #252B42;
+}
+.person__job {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.9845px;
+    line-height: 17px;
+    letter-spacing: 0.142636px;
+    color: #737373;
+}
+.comment {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.9845px;
+    line-height: 14px;
+    letter-spacing: 0.142636px;
+    color: #737373;
+}
+.star {
+    width: 13px;
+    height: 13px;
+    color: #F3CD03;
+}

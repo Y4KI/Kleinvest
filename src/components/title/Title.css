@@ -1,0 +1,29 @@
+.title-bar {
+    width: 700px;
+    margin: auto;
+}
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28.5271px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.142636px;
+    color: #FFFFFF;
+    margin: auto;
+    width: 400px;
+}
+.text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.9845px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.142636px;
+    color: #FFFFFF;
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;
+}
