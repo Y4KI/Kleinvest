@@ -10,6 +10,9 @@ body {
     width: 900px;
     margin: auto;
 }
+dl,ol,ul {
+    margin-bottom: 0 !important;
+}
 ul,li {
     list-style: none;
 }

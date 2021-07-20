@@ -5,7 +5,7 @@ import Title from '../../components/title'
 
 function Card() {
     return <div className="Card">
-        <div className="container">
+        <div className="container-md">
             <Title title="Better Strategy With  Quality Business" text="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "></Title>
             <div className="Card__menu mt-5">
                 <Cards 

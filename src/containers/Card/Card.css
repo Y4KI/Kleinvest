@@ -32,3 +32,22 @@
     grid-template-columns: auto auto auto;
     grid-row-gap: 30px;
 }
+@media only screen and (max-width: 800px) {
+    .Card__menu {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+  }
+@media only screen and (max-width: 540px) {
+    .Card__menu {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+  }

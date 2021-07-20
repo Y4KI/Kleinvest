@@ -9,10 +9,10 @@ class Title extends React.Component {
     }
 
     render() {
-        return <div className="title-bar">
-            <h1 className="title">{this.state.title}</h1>
-            <p className="text">{this.state.text}</p>
-        </div>
+        return  <div className={`title-bar container${this.state.className}`} >
+                    <h1 className="title">{this.state.title}</h1>
+                    <p className="text">{this.state.text}</p>
+                </div>
     }
 }
 
