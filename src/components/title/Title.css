@@ -1,31 +1,41 @@
 .title {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 28.5271px;
     line-height: 41px;
-    text-align: center;
-    letter-spacing: 0.142636px;
-    color: #FFFFFF;
-    margin: auto;
-    width: 400px;
 }
 .text {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 500;
     font-size: 9.9845px;
     line-height: 14px;
+    margin-top: 15px;
+}
+.title, .text {
+    width: 400px;
+    font-family: Montserrat;
+    font-style: normal;
     text-align: center;
     letter-spacing: 0.142636px;
     color: #FFFFFF;
-    width: 400px;
     margin: auto;
-    margin-top: 15px;
-}
-@media only screen and (max-width: 767.5px) {
+} 
+@media only screen and (max-width: 570px) {
     .title-bar {
         width: 100%;
         justify-content: center !important;
     }
+    .title {
+        font-size: 23.5271px;
+    }
+    .text {
+        font-size: 7.9845px; 
+    }
+    .title, .text {
+        width: 250px;
+        font-family: Montserrat;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.142636px;
+        color: #FFFFFF;
+        margin: auto;
+    } 
 }

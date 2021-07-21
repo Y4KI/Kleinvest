@@ -4,28 +4,28 @@
     border: solid 1px white;
     align-items: center;
 }
-.logo {
+.Cards__logo {
     width: 35px;
     height: 27px;
     margin: 15px;
+    color: #23A6F0;;
 }
 .Card__title {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 11.4109px;
     line-height: 17px;
     letter-spacing: 0.0713178px;
-    color: #FFFFFF;
     margin: 20px 15px 10px 0;
 }
 .Card__text {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 500;
     font-size: 9.9845px;
     line-height: 14px;
     letter-spacing: 0.142636px;
-    color: #FFFFFF;
     margin: 0 15px 15px 0px;
+}
+.Card__text , .Card__title {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #FFFFFF;
 }

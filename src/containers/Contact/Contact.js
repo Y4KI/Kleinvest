@@ -4,9 +4,11 @@ import Title from '../../components/title'
 import { AiOutlinePhone } from "react-icons/ai";
 import { HiLocationMarker , HiOutlineMail } from "react-icons/hi";
 import './Contact.css'
+import { Slide } from 'react-awesome-reveal';
 
 export default function Contact() {
-    return  <div className="contact container">
+    return  <Slide direction="up" triggerOnce="true">    
+            <div className="contact container">
                 <Title title="Get In Touch" text="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"/>
 
                 <div className="ccard-menu d-md-flex">
@@ -36,4 +38,6 @@ export default function Contact() {
                 />
                 </div>
             </div>
+            </Slide>
+
 }

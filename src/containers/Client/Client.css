@@ -6,12 +6,12 @@
     width: 750px;
     margin: auto;
 }
-@media only screen and (max-width: 767.5px) {
+@media only screen and (max-width: 840px) {
     .people {
-        text-align: center;
-        display: grid;
-        grid-row-gap: 20px;
         width: 100%;
         justify-content: center !important;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
     }
   }

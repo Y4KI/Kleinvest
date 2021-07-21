@@ -3,7 +3,7 @@
 .nav {
     align-items: center !important;
 }
-.logo {
+.nav__logo {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -12,9 +12,21 @@
     letter-spacing: 0.0713178px;
     color: #FFFFFF;
 }
+.nav__logo:hover {
+    transition: all 0.2s ease-in-out;
+    font-size: 17.5163px !important; 
+    color: #fff;
+}
 .menu__link {
     font-family: Montserrat !important;
+    color: #FFFFFF;
     font-weight: 600 !important;
+}
+.header__menu {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
 }
 .menu__list {
     font-family: Montserrat;
@@ -42,7 +54,7 @@
 }
 .btn-member {
     font-family: Montserrat;
-    font-style: normal;
+    font-style: normal; 
     font-weight: bold;
     font-size: 9.9845px;
     line-height: 16px;
@@ -50,22 +62,25 @@
     color: #FFFFFF;
     padding: 5px 10px;
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 767.5px) {
     .nav {
-        display: block !important;
-        width: 100% !important;
+        width: 100%;
+        display: block;
+        justify-content: center !important;
     }
     .menu_left {
-        text-align: center !important;
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
     }
-    .logo {
+    .nav__logo {
         margin: 0 !important;
+        width: 110px !important;    
     }
     .Icons {
-        text-align: center !important;
+        display: flex !important;
         margin: 20px 0 0 !important;
-    }
-    .header_content__button {
-        display: block !important;
+        width: 100%;
+        justify-content: center !important;
     }
   }

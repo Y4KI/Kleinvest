@@ -2,9 +2,11 @@ import React from 'react'
 import './footer.css'
 import { AiFillTwitterCircle , AiOutlineInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
+import { Slide } from 'react-awesome-reveal';
 
 export default function Footer() {
-    return  <footer className="footer">
+    return  <Slide triggerOnce="true" direction="up">
+            <footer className="footer">
                 <div className="footer-sm">
                     <h1 className="footer-sm__logo">BrandName</h1>
                     <div className="footer-sm__icons">
@@ -52,4 +54,5 @@ export default function Footer() {
                 </div>
                 </div>
             </footer>
+            </Slide>
 }

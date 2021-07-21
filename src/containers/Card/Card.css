@@ -2,37 +2,33 @@
     margin-top: 200px;
 }
 .Card_title {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 28.5271px;
     line-height: 41px;
-    text-align: center;
-    letter-spacing: 0.142636px;
-    color: #FFFFFF;
     width: 376px;
-    margin: auto;
 }
 .Card_text {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 500;
     font-size: 9.9845px;
     line-height: 14px;
+    width: 335px;
+}
+.Card__title , .Card__text {
+    font-family: Montserrat;
+    font-style: normal;
     text-align: center;
     letter-spacing: 0.142636px;
     color: #FFFFFF;
-    width: 335px;
     margin: auto;
 }
 .Card__menu {
-    width: 900px;
+    width: 800px;
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-row-gap: 30px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 840px) {
     .Card__menu {
         display: grid;
         grid-template-columns: auto auto;
@@ -42,7 +38,7 @@
         justify-content: center;
     }
   }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 570px) {
     .Card__menu {
         display: grid;
         grid-template-columns: auto;
