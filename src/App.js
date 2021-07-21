@@ -5,6 +5,8 @@ import Card from './containers/Card'
 import Client from './containers/Client'
 import About from './containers/About'
 import Pricing from './containers/Pricing'
+import Contact from './containers/Contact'
+import Footer from './containers/Footer/footer'
 
 function App(){
     return (
@@ -15,6 +17,8 @@ function App(){
             <Client />
             <About />
             <Pricing />
+            <Contact />
+            <Footer />
         </div>
     )
 }
